@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="16dp"
+    android:background="#80FFFFFF"
+    >
+
+<!--header-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/dateHeaderTextView"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Day"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:id="@+id/temperatureHeaderTextView"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Night"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:id="@+id/nightTemperatureHeaderTextView"/>
+    </LinearLayout>
+
+<!--data-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/dateTextView"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Day Temperature"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:id="@+id/TemperatureTextView"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Night Temperature"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:id="@+id/nightTemperatureTextView"/>
+
+        </LinearLayout>
+</LinearLayout>

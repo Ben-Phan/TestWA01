@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="cities_array">
+        <item>České Budějovice</item>
+        <item>New York</item>
+        <item>Sydney</item>
+        <item>Londýn</item>
+
+    </string-array>
+
+    <string-array name="latitude_array">
+        <item>48.97600359172321</item>
+        <item>40.71290709569952</item>
+        <item>-33.87021872053235</item>
+        <item>51.50708717401586</item>
+
+    </string-array>
+
+    <string-array name="longitude_array">
+        <item>14.478015234655228</item>
+        <item>-74.00643376182806</item>
+        <item>151.22218509344512</item>
+        <item>-0.12982039626097625</item>
+
+    </string-array>
+</resources>

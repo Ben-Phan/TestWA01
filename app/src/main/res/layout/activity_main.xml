@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rainy_bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/montserrat_extralight"
+        android:text="WEATHER FORECAST"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+
+    <Spinner
+        android:id="@+id/citySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+
+        />
+
+    <EditText
+        android:id="@+id/daysEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter number of days"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"
+        android:padding="8dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"/>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical"
+        android:padding="8dp"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+
+        />
+
+
+
+</LinearLayout>
